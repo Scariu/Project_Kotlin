@@ -6,14 +6,14 @@ fun main(){
 
     val celciusToFarenheint = (9.0/5.0) * (input) + 32
 
-    println("De $input° Celcius a Farenheint equivale a $celciusToFarenheint grados Farenheit.")
+    println("De $input° Celcius equivale a $celciusToFarenheint grados Farenheit.")
 
     val celciuToKelvin = input + 273.15
 
-    println("De $input° Celcius a Kelvin equivale a $celciuToKelvin grados Kelvin.")
+    println("De $input° Celcius equivale a $celciuToKelvin grados Kelvin.")
 
     val farenheintToKelvin = (5.0/9.0) * (celciusToFarenheint - 32) + 273.15
-    println("De $celciusToFarenheint° Farenheint  a Kelvin equivale $farenheintToKelvin grados Kelvin.")
+    println("De $celciusToFarenheint° Farenheint equivale $farenheintToKelvin grados Kelvin.")
 
 
 }
